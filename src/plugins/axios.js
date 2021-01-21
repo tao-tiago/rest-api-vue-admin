@@ -5,7 +5,7 @@ import axios from 'axios'
 import store from '@/store'
 
 const URL_API = (process.env.NODE_ENV === 'production')
-  ? 'https://api.bindigital.com.br'
+  ? 'https://lemoney-api.bindigital.com.br'
   : 'http://localhost:3333'
 
 const config = {
