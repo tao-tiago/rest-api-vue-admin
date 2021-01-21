@@ -55,7 +55,7 @@ export default {
 
 <style lang="scss">
   .premium {
-    position: absolute;
+    position: absolute !important;
     top: -15px;
     right: -10px;
     z-index: 99999;
